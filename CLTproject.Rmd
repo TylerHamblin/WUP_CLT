@@ -105,8 +105,20 @@ p + ggtitle("n = 9") +
   xlab("temperature") + ylab(" density")
 
 print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
+print("Expected SD:")
+sd(my1000$kkardashtemp)/sqrt(numb)
+clt9 <- sd(my1000$kkardashtemp)/sqrt(numb)
+diff9 <- abs(sd(my1000$k9)-clt9)
+idk9 <- mean(my1000$kkardashtemp)
+idc9 <- abs(mean(my1000$k9)-idk9)
+cat("Expected mean for n =", numb, ":", idk9, "\n")
+cat("Difference =", idc9, "\n")
+cat("Expected SD for n =", numb, ":", clt9, "\n")
+cat("Difference = ", diff9, "\n")
 
 ```
+
+
 
 
 
@@ -128,7 +140,16 @@ p + ggtitle("n = 16") +
   xlab("temperature") + ylab(" density")
 
 print(paste('mean = ', mean(my1000$k16),' sd = ',sd(my1000$k16)))
-
+print("Expected SD:")
+sd(my1000$kkardashtemp)/sqrt(numb)
+clt16 <- sd(my1000$kkardashtemp)/sqrt(numb)
+diff16 <- abs(sd(my1000$k16)-clt16)
+idk16 <- mean(my1000$kkardashtemp)
+idc16 <- abs(mean(my1000$k16)-idk16)
+cat("Expected mean for n =", numb, ":", idk16, "\n")
+cat("Difference =", idc16, "\n")
+cat("Expected SD for n =", numb, ":", clt16, "\n")
+cat("Difference = ", diff16, "\n")
 ```
 
 ```{r}
@@ -149,7 +170,16 @@ p + ggtitle("n = 25") +
   xlab("temperature") + ylab(" density")
 
 print(paste('mean = ', mean(my1000$k25),' sd = ',sd(my1000$k25)))
-
+print("Expected SD:")
+sd(my1000$kkardashtemp)/sqrt(numb)
+clt25 <- sd(my1000$kkardashtemp)/sqrt(numb)
+diff25 <- abs(sd(my1000$k25)-clt25)
+idk25 <- mean(my1000$kkardashtemp)
+idc25 <- abs(mean(my1000$k25)-idk25)
+cat("Expected mean for n =", numb, ":", idk25, "\n")
+cat("Difference =", idc25, "\n")
+cat("Expected SD for n =", numb, ":", clt25, "\n")
+cat("Difference = ", diff25, "\n")
 ```
 
 ```{r}
@@ -170,7 +200,16 @@ p + ggtitle("n = 36") +
   xlab("temperature") + ylab(" density")
 
 print(paste('mean = ', mean(my1000$k36),' sd = ',sd(my1000$k36)))
-
+print("Expected SD:")
+sd(my1000$kkardashtemp)/sqrt(numb)
+clt36 <- sd(my1000$kkardashtemp)/sqrt(numb)
+diff36 <- abs(sd(my1000$k36)-clt36)
+idk36 <- mean(my1000$kkardashtemp)
+idc36 <- abs(mean(my1000$k36)-idk36)
+cat("Expected mean for n =", numb, ":", idk36, "\n")
+cat("Difference =", idc36, "\n")
+cat("Expected SD for n =", numb, ":", clt36, "\n")
+cat("Difference = ", diff36, "\n")
 ```
 
 
