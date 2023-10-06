@@ -212,5 +212,8 @@ cat("Expected SD for n =", numb, ":", clt36, "\n")
 cat("Difference = ", diff36, "\n")
 ```
 
+## Conclusion
+
+In this assignment we are looking at the central limit theorem and how things like standard deviation can be predicted based on previous standard deviation and sample sizes. In this case the central limit theorem says that for every increase in sample size the standard deviation will get smaller by a relationship of 1/sqrt(n). By running commands under the code chunks for the box plots we can predict the standard deviation based on this formula and find the difference between that and the actual standard deviation. This method holds true and the typical difference is usually within a value of 0.1. We did the same thing by predicting the mean which was 47.79 for all sample sizes and find the difference between that and the true mean. Again results were fairly consistent and the actual values only differed typically less than 2. 
 
 
